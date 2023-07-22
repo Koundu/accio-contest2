@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/*CSS for the whole Page*/
+*{
+    margin: 0px;
+    background-color: #1D1D23;
+    font-family: 'Roboto', sans-serif;;
+}
+/*CSS for the Container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+/*CSS for the Heading*/
+#heading{
+    width: 328px;
+    height: 42px;
+    margin-top: 47px;
+    left: 700px;
+    font-weight: 700; 
+    font-size: 36px;
+    align-items: center;
+}
+
+
+/*CSS for the Timer*/
+.container #timer{
+    display: flex;    
+    flex-direction: row;
+    width: 849px;
+    height: 132px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #34344A;
+    margin-left: 0px;
+}
+
+/*CSS for the Set Time Para*/
+.container #timer p:first-child{
+    width: 142px;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: inherit;
+    margin-left: 42px;
+    margin-block: 50px;
+    text-align: start;
+}
+
+
+/*CSS for the Set Time button*/
+
+.container #timer button{
+    cursor: pointer;
+    margin-top: 38px;
+    margin-left: 20%;
+    margin-right: 20px;
+    width: 124px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: yellow;
+}
+
+/*CSS for the Showing the Time*/
+
+.container #timer #time{
+    background-color: inherit;
+    font-size: 48px;
+    margin-left: 10%;
+    margin-top: 38px;
+}
+
+/*CSS for Input*/
+.container #timer #time input{
+    display: inline-block;
+    background-color: inherit;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 34px;
+    color: inherit;
+}
+
+
+
+/*Removing the Arrows in the input Field*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/*--------End of the Code------------*/
